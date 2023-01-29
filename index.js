@@ -9,18 +9,18 @@ var server = http.createServer(function (req, res) {
     }
     else if (req.url == "/home") {
         res.writeHead(200, { 'Content-Type': 'text/html' });
-        res.write('<html><body><p>This is Home Page.</p></body></html>');
+        res.write('<html><body><p>This is Home Page. Hello All And Good Morning.</p></body></html>');
         res.end();
 
     }
     else if (req.url == "/dashboard") {
         res.writeHead(200, { 'Content-Type': 'text/html' });
-        res.write('<html><body><p>This is Dashboard Page.</p></body></html>');
+        res.write('<html><body><p>This is Dashboard Page. Hello All And Good Morning.</p></body></html>');
         res.end();
     }
     else if (req.url == "/error") {
         res.writeHead(200, { 'Content-Type': 'text/html' });
-        res.write('<html><body><p>This is Error Page.</p></body></html>');
+        res.write('<html><body><p>This is Error Page. Hello All And Good Morning.</p></body></html>');
         res.end();
     }
     else
