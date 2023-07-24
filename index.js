@@ -3,7 +3,7 @@ var http = require('http');
 var server = http.createServer(function (req, res) {
     if (req.url == '/') {
         res.writeHead(200, { 'Content-Type': 'text/html' });
-        res.write('<html><body><p>This is the Default Page of the Server. If You have not specified anything or a Address, this page should be visible.Change 2</p></body></html>');
+        res.write('<html><body><p>This is the Default Page of the Server. If You have not specified anything or a Address, this page should be visible.</p></body></html>');
         res.end();
 
     }
